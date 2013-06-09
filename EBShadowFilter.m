@@ -1,5 +1,5 @@
 #import "EBShadowFilter.h"
-#import <EBFoundation/EBFoundation.h>
+#import <EchoBravo/EBFoundation.h>
 
 @implementation EBShadowFilter
 static NSString *const kAlphaWithFillKernelSource = @"                                                                            \

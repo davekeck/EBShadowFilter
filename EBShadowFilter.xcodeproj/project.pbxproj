@@ -1,0 +1,236 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		555E677417640BBE007FC19F /* EBShadowFilter.h in Headers */ = {isa = PBXBuildFile; fileRef = 555E677217640BBE007FC19F /* EBShadowFilter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		555E677617640BBE007FC19F /* EBShadowFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = 555E677317640BBE007FC19F /* EBShadowFilter.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		555E677217640BBE007FC19F /* EBShadowFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EBShadowFilter.h; sourceTree = "<group>"; };
+		555E677317640BBE007FC19F /* EBShadowFilter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EBShadowFilter.m; sourceTree = "<group>"; };
+		55995A7C1763FEB10017F41E /* libEBShadowFilter.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libEBShadowFilter.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		55995ABB1763FEE40017F41E /* README.md */ = {isa = PBXFileReference; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		55995A791763FEB10017F41E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		55995A711763FE8E0017F41E = {
+			isa = PBXGroup;
+			children = (
+				55995ABB1763FEE40017F41E /* README.md */,
+				55995ABC1763FEE80017F41E /* Source */,
+				55995A7D1763FEB10017F41E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		55995A7D1763FEB10017F41E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				55995A7C1763FEB10017F41E /* libEBShadowFilter.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		55995ABC1763FEE80017F41E /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				555E677217640BBE007FC19F /* EBShadowFilter.h */,
+				555E677317640BBE007FC19F /* EBShadowFilter.m */,
+			);
+			name = Source;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		55995A7A1763FEB10017F41E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				555E677417640BBE007FC19F /* EBShadowFilter.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		55995A7B1763FEB10017F41E /* Mac */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 55995A8D1763FEB10017F41E /* Build configuration list for PBXNativeTarget "Mac" */;
+			buildPhases = (
+				55995A781763FEB10017F41E /* Sources */,
+				55995A791763FEB10017F41E /* Frameworks */,
+				55995A7A1763FEB10017F41E /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Mac;
+			productName = Mac;
+			productReference = 55995A7C1763FEB10017F41E /* libEBShadowFilter.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		55995A721763FE8E0017F41E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+			};
+			buildConfigurationList = 55995A751763FE8E0017F41E /* Build configuration list for PBXProject "EBShadowFilter" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 55995A711763FE8E0017F41E;
+			productRefGroup = 55995A7D1763FEB10017F41E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				55995A7B1763FEB10017F41E /* Mac */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		55995A781763FEB10017F41E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				555E677617640BBE007FC19F /* EBShadowFilter.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		55995A761763FE8E0017F41E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+				);
+				PRODUCT_NAME = "$(PROJECT_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = include/EchoBravo;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		55995A771763FE8E0017F41E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+				);
+				PRODUCT_NAME = "$(PROJECT_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = include/EchoBravo;
+				SKIP_INSTALL = YES;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		55995A8B1763FEB10017F41E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		55995A8C1763FEB10017F41E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		55995A751763FE8E0017F41E /* Build configuration list for PBXProject "EBShadowFilter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55995A761763FE8E0017F41E /* Debug */,
+				55995A771763FE8E0017F41E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		55995A8D1763FEB10017F41E /* Build configuration list for PBXNativeTarget "Mac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55995A8B1763FEB10017F41E /* Debug */,
+				55995A8C1763FEB10017F41E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 55995A721763FE8E0017F41E /* Project object */;
+}
