@@ -5,7 +5,6 @@ EBShadowFilter is a CIFilter that composites highly-customizable shadows. EBShad
 ## Requirements
 
 - Mac OS 10.8. (Earlier platforms have not been tested.)
-- Automatic reference counting (ARC) must be enabled for the source files.
 
 ## Integration
 
@@ -14,4 +13,4 @@ EBShadowFilter is a CIFilter that composites highly-customizable shadows. EBShad
 3. In your target's "Build Phases" tab:
     * Add EBShadowFilter as a dependency ("Target Dependencies" section)
     * Link against EBShadowFilter ("Link Binary With Libraries" section)
-4. Add `#import <EchoBravo/EBShadowFilter.h>` to your source files.
+4. Add `#import <EBShadowFilter/EBShadowFilter.h>` to your source files.
