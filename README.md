@@ -12,5 +12,5 @@ EBShadowFilter is a CIFilter that composites highly-customizable shadows. EBShad
 2. Drag EBShadowFilter.xcodeproj into your project's file hierarchy.
 3. In your target's "Build Phases" tab:
     * Add EBShadowFilter as a dependency ("Target Dependencies" section)
-    * Link against EBShadowFilter ("Link Binary With Libraries" section)
+    * Link against libEBShadowFilter.a ("Link Binary With Libraries" section)
 4. Add `#import <EBShadowFilter/EBShadowFilter.h>` to your source files.
