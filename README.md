@@ -14,3 +14,11 @@ EBShadowFilter is a CIFilter that composites highly-customizable shadows. EBShad
     * Add EBShadowFilter as a dependency ("Target Dependencies" section)
     * Link against libEBShadowFilter.a ("Link Binary With Libraries" section)
 4. Add `#import <EBShadowFilter/EBShadowFilter.h>` to your source files.
+
+## Credits
+
+EBShadowFilter was created for [Lasso](http://las.so).
+
+## License
+
+EBShadowFilter is available under the MIT license; see the LICENSE file for more information.
